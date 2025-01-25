@@ -5,6 +5,14 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "email-validator": "^2.0.4",
+    "express-rate-limit": "^7.5.0",
     "multicoin-address-validator": "^0.5.22"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "vercel-build": "npm run build"
   }
+
 }
